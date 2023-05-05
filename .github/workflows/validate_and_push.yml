@@ -28,4 +28,4 @@ jobs:
         uses: konradhoeffner/shacl@master
         with:
           data: ${{ steps.changed-files-specific.outputs.all_changed_files }}
-          shacl: shacls_validation_2023-04-27.ttl
+          shacl: IKG_shacl_shapes.ttl
