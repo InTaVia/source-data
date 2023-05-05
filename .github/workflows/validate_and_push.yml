@@ -1,0 +1,31 @@
+name: Validate datasets
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+    branches:
+      - 'main'
+    paths:
+      - 'datasets/**.ttl'
+
+jobs:
+  shacl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Get changed ttl files in datasets
+        id: changed-files-specific
+        uses: tj-actions/changed-files@v35
+        with:
+          files: datasets/*.ttl
+
+      - name: Build and Validate
+        uses: konradhoeffner/shacl@master
+        with:
+          data: ${{ steps.changed-files-specific.outputs.all_changed_files }}
+          shacl: shacls_validation_2023-04-27.ttl

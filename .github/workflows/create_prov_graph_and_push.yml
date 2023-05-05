@@ -1,0 +1,31 @@
+name: create provenance graph and push
+
+on:
+  push:
+    branches:
+      - 'main' 
+
+jobs:
+  create-prov-graph:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Get changed ttl files in datasets
+        id: changed-files-specific
+        uses: tj-actions/changed-files@v35
+        with:
+          files: datasets/*.ttl
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - uses: Gr1N/setup-poetry@v8
+      - name: set up poetry
+        run: |
+          poetry config virtualenvs.create false
+          poetry install
+      - name: create provenance graph and push
+        env:
+          SPARQL_USER: ${{ secrets.SPARQL_USER }}
+          SPARQL_PASSWORD: ${{ secrets.SPARQL_PASSWORD }}
+          INTAVIA_TRIPLESTORE: ${{ secrets.INTAVIA_TRIPLESTORE }}
+        run: python create_prov_graph_and_push.py --file ${{ steps.changed-files-specific.outputs.all_changed_files }}
