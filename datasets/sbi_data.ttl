@@ -61,12 +61,12 @@ bioc:Male a bioc:Gender .
     crm:P168_place_is_defined_by "POINT 13.8136459 45.8140029"^^geo:wktLiteral ;
     crm:P1_is_identified_by <http://www.intavia.eu/sbi/placeappellation/e41fe5e5ac985990d4a7af578bb25d5e> .
 
-<http://www.intavia.eu/sbi/timespan/1835-04-19> a crm:E52_Time_Span ;
+<http://www.intavia.eu/sbi/timespan/1835-04-19> a crm:E52_Time-Span ;
     rdfs:label "1835-04-19" ;
     crm:P82a_begin_of_the_begin "1835-04-19T00:00:00"^^xsd:dateTime ;
     crm:P82b_end_of_the_end "1835-04-19T23:59:59"^^xsd:dateTime .
 
-<http://www.intavia.eu/sbi/timespan/1903-04-01> a crm:E52_Time_Span ;
+<http://www.intavia.eu/sbi/timespan/1903-04-01> a crm:E52_Time-Span ;
     rdfs:label "1903-04-01" ;
     crm:P82a_begin_of_the_begin "1903-04-01T00:00:00"^^xsd:dateTime ;
     crm:P82b_end_of_the_end "1903-04-01T23:59:59"^^xsd:dateTime .
