@@ -1,0 +1,1274 @@
+@prefix bioc: <http://ldf.fi/schema/bioc/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix idmapis: <http://www.intavia.eu/apis/> .
+@prefix idmcore: <http://www.intavia.eu/idm-core/> .
+@prefix idmrelations: <http://www.intavia.eu/idm-relations> .
+@prefix idmrole: <http://www.intavia.eu/idm-role/> .
+@prefix owl1: <http://www.w3.org/2002/7/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+idmapis:birthevent.30155 a crm:E67_Birth ;
+    rdfs:label "Birth of Andreas Streit" ;
+    bioc:had_participant_in_role idmapis:born_person.30155 ;
+    crm:P4_has_time-span idmapis:birth.timespan.30155 ;
+    crm:P7_took_place_at idmapis:place.101669 ;
+    crm:P98_brought_into_life idmapis:personproxy.30155 .
+
+idmapis:birthevent.30161 a crm:E67_Birth ;
+    rdfs:label "Birth of Ignaz Frh. von Streit" ;
+    bioc:had_participant_in_role idmapis:born_person.30161 ;
+    crm:P4_has_time-span idmapis:birth.timespan.30161 ;
+    crm:P7_took_place_at idmapis:place.9722 ;
+    crm:P98_brought_into_life idmapis:personproxy.30161 .
+
+idmapis:birthevent.30164 a crm:E67_Birth ;
+    rdfs:label "Birth of P. Karl Streit" ;
+    bioc:had_participant_in_role idmapis:born_person.30164 ;
+    crm:P4_has_time-span idmapis:birth.timespan.30164 ;
+    crm:P7_took_place_at idmapis:place.3739 ;
+    crm:P98_brought_into_life idmapis:personproxy.30164 .
+
+idmapis:birthevent.30167 a crm:E67_Birth ;
+    rdfs:label "Birth of Moriz Frh. von Streit" ;
+    bioc:had_participant_in_role idmapis:born_person.30167 ;
+    crm:P4_has_time-span idmapis:birth.timespan.30167 ;
+    crm:P7_took_place_at idmapis:place.14608 ;
+    crm:P98_brought_into_life idmapis:personproxy.30167 .
+
+idmapis:career.109907 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Student Ständisches Polytechnisches Institut (Prag)" ;
+    bioc:had_participant_in_role idmapis:grouprole.109907.158304,
+        idmapis:personrole.109907.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109907 .
+
+idmapis:career.109908 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Student Kaiserlich-Königliches Polytechnisches Institut (Wien)" ;
+    bioc:had_participant_in_role idmapis:grouprole.109908.95419,
+        idmapis:personrole.109908.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109908 .
+
+idmapis:career.109909 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Student Akademie der Bildenden Künste München" ;
+    bioc:had_participant_in_role idmapis:grouprole.109909.98229,
+        idmapis:personrole.109909.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109909 .
+
+idmapis:career.109910 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Student Akademie der bildenden Künste Wien" ;
+    bioc:had_participant_in_role idmapis:grouprole.109910.94022,
+        idmapis:personrole.109910.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109910 .
+
+idmapis:career.109913 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Gründungsmitglied Wiener Bauhütte" ;
+    bioc:had_participant_in_role idmapis:grouprole.109913.98206,
+        idmapis:personrole.109913.30155 .
+
+idmapis:career.109914 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Assistent Kaiserlich-Königliches Polytechnisches Institut (Wien)" ;
+    bioc:had_participant_in_role idmapis:grouprole.109914.95419,
+        idmapis:personrole.109914.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109914 .
+
+idmapis:career.109921 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Mitglied Genossenschaft der Bildenden Künstler Wiens (Künstlerhaus)" ;
+    bioc:had_participant_in_role idmapis:grouprole.109921.98141,
+        idmapis:personrole.109921.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109921 .
+
+idmapis:career.109922 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Vorstandsmitglied Genossenschaft der Bildenden Künstler Wiens (Künstlerhaus)" ;
+    bioc:had_participant_in_role idmapis:grouprole.109922.98141,
+        idmapis:personrole.109922.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109922 .
+
+idmapis:career.109923 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Vorstandsmitglied Genossenschaft der Bildenden Künstler Wiens (Künstlerhaus)" ;
+    bioc:had_participant_in_role idmapis:grouprole.109923.98141,
+        idmapis:personrole.109923.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109923 .
+
+idmapis:career.109924 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Vorstandsmitglied Genossenschaft der Bildenden Künstler Wiens (Künstlerhaus)" ;
+    bioc:had_participant_in_role idmapis:grouprole.109924.98141,
+        idmapis:personrole.109924.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109924 .
+
+idmapis:career.109925 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Ehrenmitglied Genossenschaft der Bildenden Künstler Wiens (Künstlerhaus)" ;
+    bioc:had_participant_in_role idmapis:grouprole.109925.98141,
+        idmapis:personrole.109925.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109925 .
+
+idmapis:career.109926 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Mitglied Architektenclub (Künstlerhaus)" ;
+    bioc:had_participant_in_role idmapis:grouprole.109926.108999,
+        idmapis:personrole.109926.30155 .
+
+idmapis:career.109927 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Präsident Architektenclub (Künstlerhaus)" ;
+    bioc:had_participant_in_role idmapis:grouprole.109927.108999,
+        idmapis:personrole.109927.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109927 .
+
+idmapis:career.109928 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Präsident Architektenclub (Künstlerhaus)" ;
+    bioc:had_participant_in_role idmapis:grouprole.109928.108999,
+        idmapis:personrole.109928.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109928 .
+
+idmapis:career.109929 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Mitglied Österreichischer Ingenieur- und Architektenverein" ;
+    bioc:had_participant_in_role idmapis:grouprole.109929.98138,
+        idmapis:personrole.109929.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109929 .
+
+idmapis:career.109930 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Mitglied Gemeinderat Wien" ;
+    bioc:had_participant_in_role idmapis:grouprole.109930.98202,
+        idmapis:personrole.109930.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109930 .
+
+idmapis:career.109931 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Mitglied Zentralvereinigung der Architekten Österreichs" ;
+    bioc:had_participant_in_role idmapis:grouprole.109931.101290,
+        idmapis:personrole.109931.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109931 .
+
+idmapis:career.109932 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Mitglied Franz-Joseph-Orden" ;
+    bioc:had_participant_in_role idmapis:grouprole.109932.96259,
+        idmapis:personrole.109932.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109932 .
+
+idmapis:career.109933 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Mitarbeiter von Neue Freie Presse" ;
+    bioc:had_participant_in_role idmapis:grouprole.109933.96590,
+        idmapis:personrole.109933.30155 .
+
+idmapis:career.109934 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Delegierter Allgemeine Deutsche Kunstgenossenschaft" ;
+    bioc:had_participant_in_role idmapis:grouprole.109934.99888,
+        idmapis:personrole.109934.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109934 .
+
+idmapis:career.109935 a idmcore:Career ;
+    rdfs:label "Streit, Andreas war Delegierter Allgemeine Deutsche Kunstgenossenschaft" ;
+    bioc:had_participant_in_role idmapis:grouprole.109935.99888,
+        idmapis:personrole.109935.30155 ;
+    crm:P4_has_time-span idmapis:career.timespan.109935 .
+
+idmapis:deathevent.30155 a crm:E69_Death ;
+    rdfs:label "Death of Andreas Streit" ;
+    bioc:had_participant_in_role idmapis:deceased_person.30155 ;
+    crm:P100_was_death_of idmapis:personproxy.30155 ;
+    crm:P4_has_time-span idmapis:death.timespan.30155 ;
+    crm:P7_took_place_at idmapis:place.15306 .
+
+idmapis:deathevent.30161 a crm:E69_Death ;
+    rdfs:label "Death of Ignaz Frh. von Streit" ;
+    bioc:had_participant_in_role idmapis:deceased_person.30161 ;
+    crm:P100_was_death_of idmapis:personproxy.30161 ;
+    crm:P4_has_time-span idmapis:death.timespan.30161 ;
+    crm:P7_took_place_at idmapis:place.14608 .
+
+idmapis:deathevent.30164 a crm:E69_Death ;
+    rdfs:label "Death of P. Karl Streit" ;
+    bioc:had_participant_in_role idmapis:deceased_person.30164 ;
+    crm:P100_was_death_of idmapis:personproxy.30164 ;
+    crm:P4_has_time-span idmapis:death.timespan.30164 ;
+    crm:P7_took_place_at idmapis:place.4406 .
+
+idmapis:deathevent.30167 a crm:E69_Death ;
+    rdfs:label "Death of Moriz Frh. von Streit" ;
+    bioc:had_participant_in_role idmapis:deceased_person.30167 ;
+    crm:P100_was_death_of idmapis:personproxy.30167 ;
+    crm:P4_has_time-span idmapis:death.timespan.30167 ;
+    crm:P7_took_place_at idmapis:place.183 .
+
+idmapis:event.personplace.109915 a crm:E5_Event ;
+    rdfs:label "Streit, Andreas wirkte in Berlin" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.109915 ;
+    crm:P7_took_place_at idmapis:place.1390 .
+
+idmapis:event.personplace.109916 a crm:E5_Event ;
+    rdfs:label "Streit, Andreas wirkte in Liberec" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.109916 ;
+    crm:P7_took_place_at idmapis:place.1424 .
+
+idmapis:event.personplace.109917 a crm:E5_Event ;
+    rdfs:label "Streit, Andreas wirkte in Karlsbad" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.109917 ;
+    crm:P7_took_place_at idmapis:place.7920 .
+
+idmapis:event.personplace.109919 a crm:E5_Event ;
+    rdfs:label "Streit, Andreas wirkte in Wien" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.109919 ;
+    crm:P7_took_place_at idmapis:place.183 .
+
+idmapis:groupend.158304 a crm:E64_End_of_Existence ;
+    crm:P4_has_time-span idmapis:groupend.timespan.158304 ;
+    crm:P93_took_out_of_existence idmapis:groupproxy.158304 .
+
+idmapis:groupend.95419 a crm:E64_End_of_Existence ;
+    crm:P4_has_time-span idmapis:groupend.timespan.95419 ;
+    crm:P93_took_out_of_existence idmapis:groupproxy.95419 .
+
+idmapis:groupend.96590 a crm:E64_End_of_Existence ;
+    crm:P4_has_time-span idmapis:groupend.timespan.96590 ;
+    crm:P93_took_out_of_existence idmapis:groupproxy.96590 .
+
+idmapis:groupend.98202 a crm:E64_End_of_Existence ;
+    crm:P4_has_time-span idmapis:groupend.timespan.98202 ;
+    crm:P93_took_out_of_existence idmapis:groupproxy.98202 .
+
+idmapis:groupstart.158304 a crm:E63_Beginning_of_Existence ;
+    crm:P4_has_time-span idmapis:groupstart.timespan.158304 ;
+    crm:P92_brought_into_existence idmapis:groupproxy.158304 .
+
+idmapis:groupstart.94022 a crm:E63_Beginning_of_Existence ;
+    crm:P4_has_time-span idmapis:groupstart.timespan.94022 ;
+    crm:P92_brought_into_existence idmapis:groupproxy.94022 .
+
+idmapis:groupstart.95419 a crm:E63_Beginning_of_Existence ;
+    crm:P4_has_time-span idmapis:groupstart.timespan.95419 ;
+    crm:P92_brought_into_existence idmapis:groupproxy.95419 .
+
+idmapis:groupstart.96259 a crm:E63_Beginning_of_Existence ;
+    crm:P4_has_time-span idmapis:groupstart.timespan.96259 ;
+    crm:P92_brought_into_existence idmapis:groupproxy.96259 .
+
+idmapis:groupstart.96590 a crm:E63_Beginning_of_Existence ;
+    crm:P4_has_time-span idmapis:groupstart.timespan.96590 ;
+    crm:P92_brought_into_existence idmapis:groupproxy.96590 .
+
+idmapis:groupstart.98202 a crm:E63_Beginning_of_Existence ;
+    crm:P4_has_time-span idmapis:groupstart.timespan.98202 ;
+    crm:P92_brought_into_existence idmapis:groupproxy.98202 .
+
+idmapis:groupstart.98229 a crm:E63_Beginning_of_Existence ;
+    crm:P4_has_time-span idmapis:groupstart.timespan.98229 ;
+    crm:P92_brought_into_existence idmapis:groupproxy.98229 .
+
+idmapis:groupstart.99888 a crm:E63_Beginning_of_Existence ;
+    crm:P4_has_time-span idmapis:groupstart.timespan.99888 ;
+    crm:P92_brought_into_existence idmapis:groupproxy.99888 .
+
+idmapis:personproxy.26930 bioc:has_person_relation idmapis:personrelation.110943 .
+
+idmapis:personproxy.34580 bioc:bearer_of idmapis:personrelation.109911 .
+
+idmapis:personproxy.42283 bioc:bearer_of idmapis:personrelation.109918 .
+
+idmapis:personproxy.53622 bioc:bearer_of idmapis:personrelation.109912 .
+
+idmapis:personproxy.59923 bioc:bearer_of idmapis:personrelation.109920 .
+
+idmapis:appellation.first_name.30155 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Andreas" .
+
+idmapis:appellation.first_name.30161 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Ignaz Frh. von" .
+
+idmapis:appellation.first_name.30164 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "P. Karl" .
+
+idmapis:appellation.first_name.30167 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Moriz Frh. von" .
+
+idmapis:appellation.label.30155 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Streit, Andreas" ;
+    crm:P148_has_component idmapis:appellation.first_name.30155,
+        idmapis:appellation.last_name.30155 .
+
+idmapis:appellation.label.30161 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Streit, Ignaz Frh. von" ;
+    crm:P148_has_component idmapis:appellation.first_name.30161,
+        idmapis:appellation.last_name.30161 .
+
+idmapis:appellation.label.30164 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Streit, P. Karl" ;
+    crm:P148_has_component idmapis:appellation.first_name.30164,
+        idmapis:appellation.last_name.30164 .
+
+idmapis:appellation.label.30167 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Streit, Moriz Frh. von" ;
+    crm:P148_has_component idmapis:appellation.first_name.30167,
+        idmapis:appellation.last_name.30167 .
+
+idmapis:appellation.last_name.30155 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Streit" .
+
+idmapis:appellation.last_name.30161 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Streit" .
+
+idmapis:appellation.last_name.30164 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Streit" .
+
+idmapis:appellation.last_name.30167 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Streit" .
+
+idmapis:birth.timespan.30155 a crm:E52_Time-Span ;
+    rdfs:label "15.7.1840 - 20.1.1916" ;
+    crm:P82a_begin_of_the_begin "1840-07-15T00:00:00"^^xsd:dateTime .
+
+idmapis:birth.timespan.30161 a crm:E52_Time-Span ;
+    rdfs:label "29.4.1808 - 18.9.1879" ;
+    crm:P82a_begin_of_the_begin "1808-04-29T00:00:00"^^xsd:dateTime .
+
+idmapis:birth.timespan.30164 a crm:E52_Time-Span ;
+    rdfs:label "5.8.1874 - 31.5.1935" ;
+    crm:P82a_begin_of_the_begin "1874-08-05T00:00:00"^^xsd:dateTime .
+
+idmapis:birth.timespan.30167 a crm:E52_Time-Span ;
+    rdfs:label "20.5.1826 - 22.3.1890" ;
+    crm:P82a_begin_of_the_begin "1826-05-20T00:00:00"^^xsd:dateTime .
+
+idmapis:career.timespan.109907 a crm:E52_Time-Span ;
+    rdfs:label "1857 - 1859" ;
+    crm:P81a_end_of_the_begin "1857-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1859-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1857-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1859-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:career.timespan.109908 a crm:E52_Time-Span ;
+    rdfs:label "1860 - 1861" ;
+    crm:P81a_end_of_the_begin "1860-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1861-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1860-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1861-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:career.timespan.109909 a crm:E52_Time-Span ;
+    rdfs:label "1861" ;
+    crm:P81a_end_of_the_begin "1861-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1861-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:career.timespan.109910 a crm:E52_Time-Span ;
+    rdfs:label "1862 - 1865" ;
+    crm:P81a_end_of_the_begin "1862-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1865-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1862-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1865-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:career.timespan.109914 a crm:E52_Time-Span ;
+    rdfs:label "1868 - 1871" ;
+    crm:P81a_end_of_the_begin "1868-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1871-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1868-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1871-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:career.timespan.109921 a crm:E52_Time-Span ;
+    rdfs:label "1871" ;
+    crm:P81a_end_of_the_begin "1871-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1871-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:career.timespan.109922 a crm:E52_Time-Span ;
+    rdfs:label "1882 - 1884" ;
+    crm:P81a_end_of_the_begin "1882-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1884-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1882-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1884-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:career.timespan.109923 a crm:E52_Time-Span ;
+    rdfs:label "1900 - 1905" ;
+    crm:P81a_end_of_the_begin "1900-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1905-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1905-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:career.timespan.109924 a crm:E52_Time-Span ;
+    rdfs:label "1910 - 1911" ;
+    crm:P81a_end_of_the_begin "1910-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1911-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1910-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1911-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:career.timespan.109925 a crm:E52_Time-Span ;
+    rdfs:label "1905" ;
+    crm:P81a_end_of_the_begin "1905-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1905-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:career.timespan.109927 a crm:E52_Time-Span ;
+    rdfs:label "1894" ;
+    crm:P81a_end_of_the_begin "1894-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1894-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:career.timespan.109928 a crm:E52_Time-Span ;
+    rdfs:label "1900" ;
+    crm:P81a_end_of_the_begin "1900-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:career.timespan.109929 a crm:E52_Time-Span ;
+    rdfs:label "1869" ;
+    crm:P81a_end_of_the_begin "1869-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1869-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:career.timespan.109930 a crm:E52_Time-Span ;
+    rdfs:label "1881 - 1891" ;
+    crm:P81a_end_of_the_begin "1881-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1891-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1881-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1891-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:career.timespan.109931 a crm:E52_Time-Span ;
+    rdfs:label "1908" ;
+    crm:P81a_end_of_the_begin "1908-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1908-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:career.timespan.109932 a crm:E52_Time-Span ;
+    rdfs:label "1882" ;
+    crm:P81a_end_of_the_begin "1882-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1882-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:career.timespan.109934 a crm:E52_Time-Span ;
+    rdfs:label "1875" ;
+    crm:P81a_end_of_the_begin "1875-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1875-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:career.timespan.109935 a crm:E52_Time-Span ;
+    rdfs:label "1881" ;
+    crm:P81a_end_of_the_begin "1881-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1881-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:death.timespan.30155 a crm:E52_Time-Span ;
+    crm:P82b_end_of_the_end "1916-01-20T23:59:59"^^xsd:dateTime .
+
+idmapis:death.timespan.30161 a crm:E52_Time-Span ;
+    crm:P82b_end_of_the_end "1879-09-18T23:59:59"^^xsd:dateTime .
+
+idmapis:death.timespan.30164 a crm:E52_Time-Span ;
+    crm:P82b_end_of_the_end "1935-05-31T23:59:59"^^xsd:dateTime .
+
+idmapis:death.timespan.30167 a crm:E52_Time-Span ;
+    crm:P82b_end_of_the_end "1890-03-22T23:59:59"^^xsd:dateTime .
+
+idmapis:groupappellation.101290 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Zentralvereinigung der Architekten Österreichs" .
+
+idmapis:groupappellation.108999 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Architektenclub (Künstlerhaus)" .
+
+idmapis:groupappellation.158304 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Ständisches Polytechnisches Institut (Prag)" .
+
+idmapis:groupappellation.94022 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Akademie der bildenden Künste Wien" .
+
+idmapis:groupappellation.95419 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Kaiserlich-Königliches Polytechnisches Institut (Wien)" .
+
+idmapis:groupappellation.96259 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Franz-Joseph-Orden" .
+
+idmapis:groupappellation.96590 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Neue Freie Presse" .
+
+idmapis:groupappellation.98138 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Österreichischer Ingenieur- und Architektenverein" .
+
+idmapis:groupappellation.98141 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Genossenschaft der Bildenden Künstler Wiens (Künstlerhaus)" .
+
+idmapis:groupappellation.98202 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Gemeinderat Wien" .
+
+idmapis:groupappellation.98206 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Wiener Bauhütte" .
+
+idmapis:groupappellation.98229 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Akademie der Bildenden Künste München" .
+
+idmapis:groupappellation.99888 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Allgemeine Deutsche Kunstgenossenschaft" .
+
+idmapis:groupend.timespan.158304 a crm:E52_Time-Span ;
+    crm:P81b_begin_of_the_end "1869-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1869-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:groupend.timespan.95419 a crm:E52_Time-Span ;
+    crm:P81b_begin_of_the_end "1872-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1872-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:groupend.timespan.96590 a crm:E52_Time-Span ;
+    crm:P81b_begin_of_the_end "1939-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1939-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:groupend.timespan.98202 a crm:E52_Time-Span ;
+    crm:P81b_begin_of_the_end "1934-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1934-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:grouprole.5616 rdfs:subClassOf idmapis:grouprole.5611 .
+
+idmapis:grouprole.5634 rdfs:subClassOf idmapis:grouprole.5398 .
+
+idmapis:grouprole.5658 rdfs:subClassOf idmapis:grouprole.5398 .
+
+idmapis:groupstart.timespan.158304 a crm:E52_Time-Span ;
+    rdfs:label "1806 - 1869" ;
+    crm:P81a_end_of_the_begin "1806-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1806-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:groupstart.timespan.94022 a crm:E52_Time-Span ;
+    rdfs:label "1692" ;
+    crm:P81a_end_of_the_begin "1692-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1692-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:groupstart.timespan.95419 a crm:E52_Time-Span ;
+    rdfs:label "1815 - 1872" ;
+    crm:P81a_end_of_the_begin "1815-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1815-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:groupstart.timespan.96259 a crm:E52_Time-Span ;
+    rdfs:label "1849" ;
+    crm:P81a_end_of_the_begin "1849-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1849-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:groupstart.timespan.96590 a crm:E52_Time-Span ;
+    rdfs:label "1864 - 1939" ;
+    crm:P81a_end_of_the_begin "1864-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1864-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:groupstart.timespan.98202 a crm:E52_Time-Span ;
+    rdfs:label "1848 - 1934" ;
+    crm:P81a_end_of_the_begin "1848-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1848-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:groupstart.timespan.98229 a crm:E52_Time-Span ;
+    rdfs:label "13.05.1808" ;
+    crm:P82a_begin_of_the_begin "1808-05-13T00:00:00"^^xsd:dateTime .
+
+idmapis:groupstart.timespan.99888 a crm:E52_Time-Span ;
+    rdfs:label "1856" ;
+    crm:P81a_end_of_the_begin "1856-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1856-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:occupation.1069 rdfs:label "Technik >> Kartograph und Geistlicher" ;
+    rdfs:subClassOf bioc:Occupation,
+        idmapis:occupation.157 .
+
+idmapis:occupation.134 rdfs:label "Politik" ;
+    rdfs:subClassOf bioc:Occupation .
+
+idmapis:occupation.141 rdfs:label "Religionen und Theologie" ;
+    rdfs:subClassOf bioc:Occupation .
+
+idmapis:occupation.161 rdfs:label "Bildende und angewandte Kunst >> Architekt" ;
+    rdfs:subClassOf bioc:Occupation,
+        idmapis:occupation.139 .
+
+idmapis:occupation.172 rdfs:label "Rechtswesen und Rechtswissenschaft >> Jurist" ;
+    rdfs:subClassOf bioc:Occupation,
+        idmapis:occupation.132 .
+
+idmapis:occupation.507 rdfs:label "Rechtswesen und Rechtswissenschaft >> Jurist und Politiker" ;
+    rdfs:subClassOf bioc:Occupation,
+        idmapis:occupation.132 .
+
+idmapis:personrole.5616 a idmapis:personrole.5611 ;
+    rdfs:label "war Assistent"@de .
+
+idmapis:personrole.5634 a idmapis:personrole.5398 .
+
+idmapis:personrole.5658 a idmapis:personrole.5398 .
+
+idmapis:place.101669 a crm:E53_Place ;
+    rdfs:label "Stráž nad Nisou" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.101669 ;
+    crm:P1_is_identified_by idmapis:placeappellation.101669,
+        idmapis:placeidentifier.101669 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/101669>,
+        <https://sws.geonames.org/3064997/> .
+
+idmapis:place.1390 a crm:E53_Place ;
+    rdfs:label "Berlin" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.1390 ;
+    crm:P1_is_identified_by idmapis:placeappellation.1390,
+        idmapis:placeidentifier.1390 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/1390>,
+        <https://sws.geonames.org/2950159/> .
+
+idmapis:place.1424 a crm:E53_Place ;
+    rdfs:label "Liberec" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.1424 ;
+    crm:P1_is_identified_by idmapis:placeappellation.1424,
+        idmapis:placeidentifier.1424 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/1424>,
+        <https://d-nb.info/gnd/4103609-8>,
+        <https://sws.geonames.org/3071961/> .
+
+idmapis:place.15306 a crm:E53_Place ;
+    rdfs:label "Reichenau an der Rax" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.15306 ;
+    crm:P1_is_identified_by idmapis:placeappellation.15306,
+        idmapis:placeidentifier.15306 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/15306>,
+        <https://sws.geonames.org/2767777/> .
+
+idmapis:place.3739 a crm:E53_Place ;
+    rdfs:label "Dětřichovec" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.3739 ;
+    crm:P1_is_identified_by idmapis:placeappellation.3739,
+        idmapis:placeidentifier.3739 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/3739>,
+        <https://sws.geonames.org/3077178/> .
+
+idmapis:place.4406 a crm:E53_Place ;
+    rdfs:label "Maria Enzersdorf" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.4406 ;
+    crm:P1_is_identified_by idmapis:placeappellation.4406,
+        idmapis:placeidentifier.4406 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/4406>,
+        <https://sws.geonames.org/2771940/> .
+
+idmapis:place.7920 a crm:E53_Place ;
+    rdfs:label "Karlsbad" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.7920 ;
+    crm:P1_is_identified_by idmapis:placeappellation.7920,
+        idmapis:placeidentifier.7920 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/7920>,
+        <https://d-nb.info/gnd/4029705-6>,
+        <https://sws.geonames.org/3073803/> .
+
+idmapis:place.9722 a crm:E53_Place ;
+    rdfs:label "Litomyšl" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.9722 ;
+    crm:P1_is_identified_by idmapis:placeappellation.9722,
+        idmapis:placeidentifier.9722 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/9722>,
+        <https://sws.geonames.org/3071675/> .
+
+idmapis:placeappellation.101669 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Stráž nad Nisou" .
+
+idmapis:placeappellation.1390 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Berlin" .
+
+idmapis:placeappellation.1424 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Liberec" .
+
+idmapis:placeappellation.14608 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Prag" .
+
+idmapis:placeappellation.15306 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Reichenau an der Rax" .
+
+idmapis:placeappellation.183 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Wien" .
+
+idmapis:placeappellation.3739 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Dětřichovec" .
+
+idmapis:placeappellation.4406 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Maria Enzersdorf" .
+
+idmapis:placeappellation.7920 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Karlsbad" .
+
+idmapis:placeappellation.9722 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Litomyšl" .
+
+idmapis:placeidentifier.101669 a crm:E_42_Identifier ;
+    rdfs:label 101669 .
+
+idmapis:placeidentifier.1390 a crm:E_42_Identifier ;
+    rdfs:label 1390 .
+
+idmapis:placeidentifier.1424 a crm:E_42_Identifier ;
+    rdfs:label 1424 .
+
+idmapis:placeidentifier.14608 a crm:E_42_Identifier ;
+    rdfs:label 14608 .
+
+idmapis:placeidentifier.15306 a crm:E_42_Identifier ;
+    rdfs:label 15306 .
+
+idmapis:placeidentifier.183 a crm:E_42_Identifier ;
+    rdfs:label 183 .
+
+idmapis:placeidentifier.3739 a crm:E_42_Identifier ;
+    rdfs:label 3739 .
+
+idmapis:placeidentifier.4406 a crm:E_42_Identifier ;
+    rdfs:label 4406 .
+
+idmapis:placeidentifier.7920 a crm:E_42_Identifier ;
+    rdfs:label 7920 .
+
+idmapis:placeidentifier.9722 a crm:E_42_Identifier ;
+    rdfs:label 9722 .
+
+idmapis:spaceprimitive.101669 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +15.02683 +50.79099 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.1390 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +13.41053 +52.52437 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.1424 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +15.05619 +50.76711 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.14608 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +14.42076 +50.08804 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.15306 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +15.84572 +47.69509 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.183 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +16.37208 +48.20849 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.3739 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +15.27615 +50.9527 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.4406 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +16.28333 +48.1 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.7920 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +12.87117 +50.23271 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.9722 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +16.31298 +49.86809 )"^^geo:wktLiteral .
+
+idmapis:text.30155.bio idmcore:full_bio_link <https://apis.acdh.oeaw.ac.at/apis/api/metainfo/text/13497/> ;
+    idmcore:short_bio_link <https://apis.acdh.oeaw.ac.at/apis/api/metainfo/text/13498/> .
+
+idmapis:text.30164.bio idmcore:full_bio_link <https://apis.acdh.oeaw.ac.at/apis/api/metainfo/text/13499/> ;
+    idmcore:short_bio_link <https://apis.acdh.oeaw.ac.at/apis/api/metainfo/text/13500/> .
+
+idmapis:text.30167.bio idmcore:full_bio_link <https://apis.acdh.oeaw.ac.at/apis/api/metainfo/text/13501/> ;
+    idmcore:short_bio_link <https://apis.acdh.oeaw.ac.at/apis/api/metainfo/text/13502/> .
+
+idmrelations:5424 rdfs:subClassOf idmrelations:5420 .
+
+idmapis:born_person.30155 a idmrole:born_person ;
+    bioc:inheres_in idmapis:personproxy.30155 .
+
+idmapis:born_person.30161 a idmrole:born_person ;
+    bioc:inheres_in idmapis:personproxy.30161 .
+
+idmapis:born_person.30164 a idmrole:born_person ;
+    bioc:inheres_in idmapis:personproxy.30164 .
+
+idmapis:born_person.30167 a idmrole:born_person ;
+    bioc:inheres_in idmapis:personproxy.30167 .
+
+idmapis:deceased_person.30155 a idmrole:deceased_person ;
+    bioc:inheres_in idmapis:personproxy.30155 .
+
+idmapis:deceased_person.30161 a idmrole:deceased_person ;
+    bioc:inheres_in idmapis:personproxy.30161 .
+
+idmapis:deceased_person.30164 a idmrole:deceased_person ;
+    bioc:inheres_in idmapis:personproxy.30164 .
+
+idmapis:deceased_person.30167 a idmrole:deceased_person ;
+    bioc:inheres_in idmapis:personproxy.30167 .
+
+idmapis:groupproxy.101290 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109931,
+        idmapis:grouprole.109931.101290 ;
+    crm:P1_is_identified_by idmapis:groupappellation.101290 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/101290>,
+        <https://d-nb.info/gnd/815936-1> .
+
+idmapis:groupproxy.98138 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109929,
+        idmapis:grouprole.109929.98138 ;
+    crm:P1_is_identified_by idmapis:groupappellation.98138 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/98138>,
+        <https://d-nb.info/gnd/4385240-3> .
+
+idmapis:groupproxy.98206 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109913,
+        idmapis:grouprole.109913.98206 ;
+    crm:P1_is_identified_by idmapis:groupappellation.98206 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/98206>,
+        <https://d-nb.info/gnd/814726-7> .
+
+idmapis:grouprelation.109907 a idmapis:grouprole.5642 ;
+    rdfs:label "war Student" ;
+    bioc:inheres_in idmapis:groupproxy.158304 .
+
+idmapis:grouprelation.109908 a idmapis:grouprole.5642 ;
+    rdfs:label "war Student" ;
+    bioc:inheres_in idmapis:groupproxy.95419 .
+
+idmapis:grouprelation.109909 a idmapis:grouprole.5642 ;
+    rdfs:label "war Student" ;
+    bioc:inheres_in idmapis:groupproxy.98229 .
+
+idmapis:grouprelation.109910 a idmapis:grouprole.5642 ;
+    rdfs:label "war Student" ;
+    bioc:inheres_in idmapis:groupproxy.94022 .
+
+idmapis:grouprelation.109913 a idmapis:grouprole.5658 ;
+    rdfs:label "war Gründungsmitglied" ;
+    bioc:inheres_in idmapis:groupproxy.98206 .
+
+idmapis:grouprelation.109914 a idmapis:grouprole.5616 ;
+    rdfs:label "war Assistent" ;
+    bioc:inheres_in idmapis:groupproxy.95419 .
+
+idmapis:grouprelation.109921 a idmapis:grouprole.5398 ;
+    rdfs:label "war Mitglied" ;
+    bioc:inheres_in idmapis:groupproxy.98141 .
+
+idmapis:grouprelation.109922 a idmapis:grouprole.5646 ;
+    rdfs:label "war Vorstandsmitglied" ;
+    bioc:inheres_in idmapis:groupproxy.98141 .
+
+idmapis:grouprelation.109923 a idmapis:grouprole.5646 ;
+    rdfs:label "war Vorstandsmitglied" ;
+    bioc:inheres_in idmapis:groupproxy.98141 .
+
+idmapis:grouprelation.109924 a idmapis:grouprole.5646 ;
+    rdfs:label "war Vorstandsmitglied" ;
+    bioc:inheres_in idmapis:groupproxy.98141 .
+
+idmapis:grouprelation.109925 a idmapis:grouprole.5634 ;
+    rdfs:label "war Ehrenmitglied" ;
+    bioc:inheres_in idmapis:groupproxy.98141 .
+
+idmapis:grouprelation.109926 a idmapis:grouprole.5398 ;
+    rdfs:label "war Mitglied" ;
+    bioc:inheres_in idmapis:groupproxy.108999 .
+
+idmapis:grouprelation.109927 a idmapis:grouprole.5686 ;
+    rdfs:label "war Präsident" ;
+    bioc:inheres_in idmapis:groupproxy.108999 .
+
+idmapis:grouprelation.109928 a idmapis:grouprole.5686 ;
+    rdfs:label "war Präsident" ;
+    bioc:inheres_in idmapis:groupproxy.108999 .
+
+idmapis:grouprelation.109929 a idmapis:grouprole.5398 ;
+    rdfs:label "war Mitglied" ;
+    bioc:inheres_in idmapis:groupproxy.98138 .
+
+idmapis:grouprelation.109930 a idmapis:grouprole.5398 ;
+    rdfs:label "war Mitglied" ;
+    bioc:inheres_in idmapis:groupproxy.98202 .
+
+idmapis:grouprelation.109931 a idmapis:grouprole.5398 ;
+    rdfs:label "war Mitglied" ;
+    bioc:inheres_in idmapis:groupproxy.101290 .
+
+idmapis:grouprelation.109932 a idmapis:grouprole.5398 ;
+    rdfs:label "war Mitglied" ;
+    bioc:inheres_in idmapis:groupproxy.96259 .
+
+idmapis:grouprelation.109933 a idmapis:grouprole.5611 ;
+    rdfs:label "war Mitarbeiter von" ;
+    bioc:inheres_in idmapis:groupproxy.96590 .
+
+idmapis:grouprelation.109934 a idmapis:grouprole.5812 ;
+    rdfs:label "war Delegierter" ;
+    bioc:inheres_in idmapis:groupproxy.99888 .
+
+idmapis:grouprelation.109935 a idmapis:grouprole.5812 ;
+    rdfs:label "war Delegierter" ;
+    bioc:inheres_in idmapis:groupproxy.99888 .
+
+idmapis:grouprole.109907.158304 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.158304 .
+
+idmapis:grouprole.109908.95419 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.95419 .
+
+idmapis:grouprole.109909.98229 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.98229 .
+
+idmapis:grouprole.109910.94022 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.94022 .
+
+idmapis:grouprole.109913.98206 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.98206 .
+
+idmapis:grouprole.109914.95419 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.95419 .
+
+idmapis:grouprole.109921.98141 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.98141 .
+
+idmapis:grouprole.109922.98141 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.98141 .
+
+idmapis:grouprole.109923.98141 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.98141 .
+
+idmapis:grouprole.109924.98141 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.98141 .
+
+idmapis:grouprole.109925.98141 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.98141 .
+
+idmapis:grouprole.109926.108999 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.108999 .
+
+idmapis:grouprole.109927.108999 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.108999 .
+
+idmapis:grouprole.109928.108999 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.108999 .
+
+idmapis:grouprole.109929.98138 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.98138 .
+
+idmapis:grouprole.109930.98202 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.98202 .
+
+idmapis:grouprole.109931.101290 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.101290 .
+
+idmapis:grouprole.109932.96259 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.96259 .
+
+idmapis:grouprole.109933.96590 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.96590 .
+
+idmapis:grouprole.109934.99888 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.99888 .
+
+idmapis:grouprole.109935.99888 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.99888 .
+
+idmapis:grouprole.5686 rdfs:subClassOf idmapis:grouprole.5398 .
+
+idmapis:grouprole.5812 rdfs:subClassOf idmapis:grouprole.5398 .
+
+idmapis:occupation.139 rdfs:label "Bildende und angewandte Kunst" ;
+    rdfs:subClassOf bioc:Occupation .
+
+idmapis:occupation.157 rdfs:label "Technik" ;
+    rdfs:subClassOf bioc:Occupation .
+
+idmapis:personplace.eventrole.109915 a idmrole:5388 ;
+    rdfs:label "wirkte in" ;
+    bioc:inheres_in idmapis:personproxy.30155 .
+
+idmapis:personplace.eventrole.109916 a idmrole:5388 ;
+    rdfs:label "wirkte in" ;
+    bioc:inheres_in idmapis:personproxy.30155 .
+
+idmapis:personplace.eventrole.109917 a idmrole:5388 ;
+    rdfs:label "wirkte in" ;
+    bioc:inheres_in idmapis:personproxy.30155 .
+
+idmapis:personplace.eventrole.109919 a idmrole:5388 ;
+    rdfs:label "wirkte in" ;
+    bioc:inheres_in idmapis:personproxy.30155 .
+
+idmapis:personrelation.109911 a idmrelations:5418 ;
+    rdfs:label "war Schüler von" .
+
+idmapis:personrelation.109912 a idmrelations:5418 ;
+    rdfs:label "war Schüler von" .
+
+idmapis:personrelation.109918 a idmrelations:5432 ;
+    rdfs:label "arbeitete zusammen" .
+
+idmapis:personrelation.109920 a idmrelations:5424 ;
+    rdfs:label "war befreundet mit" .
+
+idmapis:personrelation.110943 a idmrelations:5432 ;
+    rdfs:label "arbeitete zusammen" .
+
+idmapis:personrole.109907.30155 a idmapis:personrole.5642 .
+
+idmapis:personrole.109908.30155 a idmapis:personrole.5642 .
+
+idmapis:personrole.109909.30155 a idmapis:personrole.5642 .
+
+idmapis:personrole.109910.30155 a idmapis:personrole.5642 .
+
+idmapis:personrole.109913.30155 a idmapis:personrole.5658 .
+
+idmapis:personrole.109914.30155 a idmapis:personrole.5616 .
+
+idmapis:personrole.109921.30155 a idmapis:personrole.5398 .
+
+idmapis:personrole.109922.30155 a idmapis:personrole.5646 .
+
+idmapis:personrole.109923.30155 a idmapis:personrole.5646 .
+
+idmapis:personrole.109924.30155 a idmapis:personrole.5646 .
+
+idmapis:personrole.109925.30155 a idmapis:personrole.5634 .
+
+idmapis:personrole.109926.30155 a idmapis:personrole.5398 .
+
+idmapis:personrole.109927.30155 a idmapis:personrole.5686 .
+
+idmapis:personrole.109928.30155 a idmapis:personrole.5686 .
+
+idmapis:personrole.109929.30155 a idmapis:personrole.5398 .
+
+idmapis:personrole.109930.30155 a idmapis:personrole.5398 .
+
+idmapis:personrole.109931.30155 a idmapis:personrole.5398 .
+
+idmapis:personrole.109932.30155 a idmapis:personrole.5398 .
+
+idmapis:personrole.109933.30155 a idmapis:personrole.5611 .
+
+idmapis:personrole.109934.30155 a idmapis:personrole.5812 .
+
+idmapis:personrole.109935.30155 a idmapis:personrole.5812 .
+
+idmapis:personrole.5611 a bioc:Actor_Role ;
+    rdfs:label "war Mitarbeiter von"@de .
+
+idmapis:personrole.5686 a idmapis:personrole.5398 ;
+    rdfs:label "war Präsident"@de .
+
+idmapis:personrole.5812 a idmapis:personrole.5398 .
+
+idmapis:place.14608 a crm:E53_Place ;
+    rdfs:label "Prag" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.14608 ;
+    crm:P1_is_identified_by idmapis:placeappellation.14608,
+        idmapis:placeidentifier.14608 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/14608>,
+        <https://d-nb.info/gnd/4076310-9>,
+        <https://sws.geonames.org/3067696/> .
+
+idmapis:place.183 a crm:E53_Place ;
+    rdfs:label "Wien" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.183 ;
+    crm:P1_is_identified_by idmapis:placeappellation.183,
+        idmapis:placeidentifier.183 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/183>,
+        <https://sws.geonames.org/2761369/> .
+
+idmrelations:5418 rdfs:subClassOf idmrelations:5420 .
+
+idmrelations:5432 rdfs:subClassOf idmrelations:5420 .
+
+idmapis:groupproxy.94022 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109910,
+        idmapis:grouprole.109910.94022 ;
+    crm:P1_is_identified_by idmapis:groupappellation.94022 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/94022>,
+        <https://d-nb.info/gnd/2003761-2> .
+
+idmapis:groupproxy.96259 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109932,
+        idmapis:grouprole.109932.96259 ;
+    crm:P1_is_identified_by idmapis:groupappellation.96259 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/96259>,
+        <https://d-nb.info/gnd/1097265-1> .
+
+idmapis:groupproxy.98229 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109909,
+        idmapis:grouprole.109909.98229 ;
+    crm:P1_is_identified_by idmapis:groupappellation.98229 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/98229>,
+        <https://d-nb.info/gnd/1022060-4> .
+
+idmapis:grouprole.5646 rdfs:subClassOf idmapis:grouprole.5398 .
+
+idmapis:personrole.5646 a idmapis:personrole.5398 .
+
+idmrelations:5420 rdfs:subClassOf bioc:Person_Relationship_Role .
+
+idmapis:groupproxy.158304 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109907,
+        idmapis:grouprole.109907.158304 ;
+    crm:P1_is_identified_by idmapis:groupappellation.158304 ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/158304/>,
+        <https://apis.acdh.oeaw.ac.at/entity/158304> .
+
+idmapis:groupproxy.96590 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109933,
+        idmapis:grouprole.109933.96590 ;
+    crm:P1_is_identified_by idmapis:groupappellation.96590 ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/96590/>,
+        <https://apis.acdh.oeaw.ac.at/entity/96590> .
+
+idmapis:groupproxy.98202 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109930,
+        idmapis:grouprole.109930.98202 ;
+    crm:P1_is_identified_by idmapis:groupappellation.98202 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/98202>,
+        <https://d-nb.info/gnd/2078349-8> .
+
+idmapis:grouprole.5642 rdfs:subClassOf idmapis:grouprole.5622 .
+
+idmapis:occupation.132 rdfs:label "Rechtswesen und Rechtswissenschaft" ;
+    rdfs:subClassOf bioc:Occupation .
+
+idmapis:personproxy.30161 a crm:E21_Person,
+        idmcore:Person_Proxy ;
+    rdfs:label "Ignaz Frh. von Streit" ;
+    bioc:bearer_of idmapis:born_person.30161,
+        idmapis:deceased_person.30161 ;
+    bioc:has_gender bioc:Male ;
+    bioc:has_occupation idmapis:occupation.132,
+        idmapis:occupation.172 ;
+    crm:P1_is_identified_by idmapis:appellation.label.30161 ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/30161/>,
+        <https://apis.acdh.oeaw.ac.at/entity/30161> .
+
+idmapis:personproxy.30164 a crm:E21_Person,
+        idmcore:Person_Proxy ;
+    rdfs:label "P. Karl Streit" ;
+    bioc:bearer_of idmapis:born_person.30164,
+        idmapis:deceased_person.30164 ;
+    bioc:has_gender bioc:Male ;
+    bioc:has_occupation idmapis:occupation.1069,
+        idmapis:occupation.141,
+        idmapis:occupation.157 ;
+    crm:P1_is_identified_by idmapis:appellation.label.30164 ;
+    idmcore:bio_link idmapis:text.30164.bio ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/30164/>,
+        <https://apis.acdh.oeaw.ac.at/entity/30164> .
+
+idmapis:personproxy.30167 a crm:E21_Person,
+        idmcore:Person_Proxy ;
+    rdfs:label "Moriz Frh. von Streit" ;
+    bioc:bearer_of idmapis:born_person.30167,
+        idmapis:deceased_person.30167 ;
+    bioc:has_gender bioc:Male ;
+    bioc:has_occupation idmapis:occupation.132,
+        idmapis:occupation.134,
+        idmapis:occupation.507 ;
+    crm:P1_is_identified_by idmapis:appellation.label.30167 ;
+    idmcore:bio_link idmapis:text.30167.bio ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/30167/>,
+        <https://apis.acdh.oeaw.ac.at/entity/30167> .
+
+idmapis:personrole.5642 a idmapis:personrole.5622 .
+
+idmrole:5388 rdfs:label "wirkte in" ;
+    rdfs:subClassOf bioc:Event_Role .
+
+idmrole:born_person rdfs:subClassOf bioc:Event_Role .
+
+idmrole:deceased_person rdfs:subClassOf bioc:Event_Role .
+
+idmapis:groupproxy.99888 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109934,
+        idmapis:grouprelation.109935,
+        idmapis:grouprole.109934.99888,
+        idmapis:grouprole.109935.99888 ;
+    crm:P1_is_identified_by idmapis:groupappellation.99888 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/99888>,
+        <https://d-nb.info/gnd/64311-7> .
+
+idmapis:groupproxy.108999 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109926,
+        idmapis:grouprelation.109927,
+        idmapis:grouprelation.109928,
+        idmapis:grouprole.109926.108999,
+        idmapis:grouprole.109927.108999,
+        idmapis:grouprole.109928.108999 ;
+    crm:P1_is_identified_by idmapis:groupappellation.108999 ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/108999/>,
+        <https://apis.acdh.oeaw.ac.at/entity/108999> .
+
+idmapis:groupproxy.95419 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109908,
+        idmapis:grouprelation.109914,
+        idmapis:grouprole.109908.95419,
+        idmapis:grouprole.109914.95419 ;
+    crm:P1_is_identified_by idmapis:groupappellation.95419 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/95419>,
+        <https://d-nb.info/gnd/37787-9> .
+
+idmapis:personproxy.30155 a crm:E21_Person,
+        idmcore:Person_Proxy ;
+    rdfs:label "Andreas Streit" ;
+    bioc:bearer_of idmapis:born_person.30155,
+        idmapis:deceased_person.30155,
+        idmapis:personplace.eventrole.109915,
+        idmapis:personplace.eventrole.109916,
+        idmapis:personplace.eventrole.109917,
+        idmapis:personplace.eventrole.109919,
+        idmapis:personrelation.110943,
+        idmapis:personrole.109907.30155,
+        idmapis:personrole.109908.30155,
+        idmapis:personrole.109909.30155,
+        idmapis:personrole.109910.30155,
+        idmapis:personrole.109913.30155,
+        idmapis:personrole.109914.30155,
+        idmapis:personrole.109921.30155,
+        idmapis:personrole.109922.30155,
+        idmapis:personrole.109923.30155,
+        idmapis:personrole.109924.30155,
+        idmapis:personrole.109925.30155,
+        idmapis:personrole.109926.30155,
+        idmapis:personrole.109927.30155,
+        idmapis:personrole.109928.30155,
+        idmapis:personrole.109929.30155,
+        idmapis:personrole.109930.30155,
+        idmapis:personrole.109931.30155,
+        idmapis:personrole.109932.30155,
+        idmapis:personrole.109933.30155,
+        idmapis:personrole.109934.30155,
+        idmapis:personrole.109935.30155 ;
+    bioc:has_gender bioc:Male ;
+    bioc:has_group_relation idmapis:grouprelation.109907,
+        idmapis:grouprelation.109908,
+        idmapis:grouprelation.109909,
+        idmapis:grouprelation.109910,
+        idmapis:grouprelation.109913,
+        idmapis:grouprelation.109914,
+        idmapis:grouprelation.109921,
+        idmapis:grouprelation.109922,
+        idmapis:grouprelation.109923,
+        idmapis:grouprelation.109924,
+        idmapis:grouprelation.109925,
+        idmapis:grouprelation.109926,
+        idmapis:grouprelation.109927,
+        idmapis:grouprelation.109928,
+        idmapis:grouprelation.109929,
+        idmapis:grouprelation.109930,
+        idmapis:grouprelation.109931,
+        idmapis:grouprelation.109932,
+        idmapis:grouprelation.109933,
+        idmapis:grouprelation.109934,
+        idmapis:grouprelation.109935 ;
+    bioc:has_occupation idmapis:occupation.139,
+        idmapis:occupation.161 ;
+    bioc:has_person_relation idmapis:personrelation.109911,
+        idmapis:personrelation.109912,
+        idmapis:personrelation.109918,
+        idmapis:personrelation.109920 ;
+    crm:P1_is_identified_by idmapis:appellation.label.30155 ;
+    idmcore:bio_link idmapis:text.30155.bio ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/30155>,
+        <https://d-nb.info/gnd/130159786> .
+
+idmapis:groupproxy.98141 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.109921,
+        idmapis:grouprelation.109922,
+        idmapis:grouprelation.109923,
+        idmapis:grouprelation.109924,
+        idmapis:grouprelation.109925,
+        idmapis:grouprole.109921.98141,
+        idmapis:grouprole.109922.98141,
+        idmapis:grouprole.109923.98141,
+        idmapis:grouprole.109924.98141,
+        idmapis:grouprole.109925.98141 ;
+    crm:P1_is_identified_by idmapis:groupappellation.98141 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/98141>,
+        <https://d-nb.info/gnd/3009578-5> .
+
+idmapis:personrole.5398 a bioc:Actor_Role ;
+    rdfs:label "war Mitglied"@de .
+
+idmcore:Career rdfs:subClassOf crm:E5_Event .
+
