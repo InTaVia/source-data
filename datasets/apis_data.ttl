@@ -1,0 +1,811 @@
+@prefix bioc: <http://ldf.fi/schema/bioc/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix idmapis: <http://www.intavia.eu/apis/> .
+@prefix idmcore: <http://www.intavia.eu/idm-core/> .
+@prefix idmrelations: <http://www.intavia.eu/idm-relations> .
+@prefix idmrole: <http://www.intavia.eu/idm-role/> .
+@prefix owl1: <http://www.w3.org/2002/7/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+idmapis:birthevent.155786 a crm:E67_Birth ;
+    rdfs:label "Birth of Milutin Tesla" ;
+    bioc:had_participant_in_role idmapis:born_person.155786 ;
+    crm:P4_has_time-span idmapis:birth.timespan.155786 ;
+    crm:P98_brought_into_life idmapis:personproxy.155786 .
+
+idmapis:birthevent.27118 a crm:E67_Birth ;
+    rdfs:label "Birth of Nikola Tesla" ;
+    bioc:had_participant_in_role idmapis:born_person.27118 ;
+    crm:P4_has_time-span idmapis:birth.timespan.27118 ;
+    crm:P7_took_place_at idmapis:place.129965 ;
+    crm:P98_brought_into_life idmapis:personproxy.27118 .
+
+idmapis:career.155793 a idmcore:Career ;
+    rdfs:label "Tesla, Nikola war Student Technische Hochschule Graz" ;
+    bioc:had_participant_in_role idmapis:grouprole.155793.99824,
+        idmapis:personrole.155793.27118 ;
+    crm:P4_has_time-span idmapis:career.timespan.155793 .
+
+idmapis:career.155797 a idmcore:Career ;
+    rdfs:label "Tesla, Nikola war Mitarbeiter von Zentrales Telegrafenamt (Budapest)" ;
+    bioc:had_participant_in_role idmapis:grouprole.155797.155795,
+        idmapis:personrole.155797.27118 ;
+    crm:P4_has_time-span idmapis:career.timespan.155797 .
+
+idmapis:career.155800 a idmcore:Career ;
+    rdfs:label "Tesla, Nikola war Mitarbeiter von Société Edison Continental (Paris)" ;
+    bioc:had_participant_in_role idmapis:grouprole.155800.155798,
+        idmapis:personrole.155800.27118 .
+
+idmapis:career.155804 a idmcore:Career ;
+    rdfs:label "Tesla, Nikola war Mitarbeiter von Edison Electric Illuminating Company (New York)" ;
+    bioc:had_participant_in_role idmapis:grouprole.155804.155802,
+        idmapis:personrole.155804.27118 ;
+    crm:P4_has_time-span idmapis:career.timespan.155804 .
+
+idmapis:career.155807 a idmcore:Career ;
+    rdfs:label "Tesla, Nikola war Gründer von Tesla Electric Light Company (New York)" ;
+    bioc:had_participant_in_role idmapis:grouprole.155807.155805,
+        idmapis:personrole.155807.27118 ;
+    crm:P4_has_time-span idmapis:career.timespan.155807 .
+
+idmapis:career.155810 a idmcore:Career ;
+    rdfs:label "Tesla, Nikola war Gründer von Firma Tesla Electric Company (New York)" ;
+    bioc:had_participant_in_role idmapis:grouprole.155810.155808,
+        idmapis:personrole.155810.27118 .
+
+idmapis:deathevent.155786 a crm:E69_Death ;
+    rdfs:label "Death of Milutin Tesla" ;
+    bioc:had_participant_in_role idmapis:deceased_person.155786 ;
+    crm:P100_was_death_of idmapis:personproxy.155786 ;
+    crm:P4_has_time-span idmapis:death.timespan.155786 .
+
+idmapis:deathevent.27118 a crm:E69_Death ;
+    rdfs:label "Death of Nikola Tesla" ;
+    bioc:had_participant_in_role idmapis:deceased_person.27118 ;
+    crm:P100_was_death_of idmapis:personproxy.27118 ;
+    crm:P4_has_time-span idmapis:death.timespan.27118 ;
+    crm:P7_took_place_at idmapis:place.25209 .
+
+idmapis:event.personplace.155790 a crm:E5_Event ;
+    rdfs:label "Tesla, Nikola ausgebildet in Smiljan" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.155790 ;
+    crm:P4_has_time-span idmapis:personplace.timespan.155790 ;
+    crm:P7_took_place_at idmapis:place.129965 .
+
+idmapis:event.personplace.155791 a crm:E5_Event ;
+    rdfs:label "Tesla, Nikola ausgebildet in Gospić" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.155791 ;
+    crm:P4_has_time-span idmapis:personplace.timespan.155791 ;
+    crm:P7_took_place_at idmapis:place.5584 .
+
+idmapis:event.personplace.155792 a crm:E5_Event ;
+    rdfs:label "Tesla, Nikola ausgebildet in Karlovac" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.155792 ;
+    crm:P4_has_time-span idmapis:personplace.timespan.155792 ;
+    crm:P7_took_place_at idmapis:place.7912 .
+
+idmapis:event.personplace.155794 a crm:E5_Event ;
+    rdfs:label "Tesla, Nikola ausgebildet in Prag" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.155794 ;
+    crm:P4_has_time-span idmapis:personplace.timespan.155794 ;
+    crm:P7_took_place_at idmapis:place.14608 .
+
+idmapis:event.personplace.155801 a crm:E5_Event ;
+    rdfs:label "Tesla, Nikola wirkte in New York City" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.155801 ;
+    crm:P4_has_time-span idmapis:personplace.timespan.155801 ;
+    crm:P7_took_place_at idmapis:place.25209 .
+
+idmapis:event.personplace.155813 a crm:E5_Event ;
+    rdfs:label "Tesla, Nikola hielt einen Vortrag in New York City" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.155813 ;
+    crm:P7_took_place_at idmapis:place.25209 .
+
+idmapis:event.personplace.155814 a crm:E5_Event ;
+    rdfs:label "Tesla, Nikola hielt einen Vortrag in Philadelphia" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.155814 ;
+    crm:P7_took_place_at idmapis:place.54993 .
+
+idmapis:event.personplace.155815 a crm:E5_Event ;
+    rdfs:label "Tesla, Nikola hielt einen Vortrag in St. Louis" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.155815 ;
+    crm:P7_took_place_at idmapis:place.71364 .
+
+idmapis:event.personplace.155816 a crm:E5_Event ;
+    rdfs:label "Tesla, Nikola hielt einen Vortrag in London" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.155816 ;
+    crm:P7_took_place_at idmapis:place.10265 .
+
+idmapis:event.personplace.155817 a crm:E5_Event ;
+    rdfs:label "Tesla, Nikola hielt einen Vortrag in Paris" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.155817 ;
+    crm:P7_took_place_at idmapis:place.13714 .
+
+idmapis:event.personplace.155821 a crm:E5_Event ;
+    rdfs:label "Tesla, Nikola wirkte in Colorado Springs" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.155821 ;
+    crm:P4_has_time-span idmapis:personplace.timespan.155821 ;
+    crm:P7_took_place_at idmapis:place.155818 .
+
+idmapis:event.personplace.155822 a crm:E5_Event ;
+    rdfs:label "Tesla, Nikola wirkte in New York City" ;
+    bioc:had_participant_in_role idmapis:personplace.eventrole.155822 ;
+    crm:P4_has_time-span idmapis:personplace.timespan.155822 ;
+    crm:P7_took_place_at idmapis:place.25209 .
+
+idmapis:groupend.155802 a crm:E64_End_of_Existence ;
+    crm:P4_has_time-span idmapis:groupend.timespan.155802 ;
+    crm:P93_took_out_of_existence idmapis:groupproxy.155802 .
+
+idmapis:groupend.155805 a crm:E64_End_of_Existence ;
+    crm:P4_has_time-span idmapis:groupend.timespan.155805 ;
+    crm:P93_took_out_of_existence idmapis:groupproxy.155805 .
+
+idmapis:groupstart.155805 a crm:E63_Beginning_of_Existence ;
+    crm:P4_has_time-span idmapis:groupstart.timespan.155805 ;
+    crm:P92_brought_into_existence idmapis:groupproxy.155805 .
+
+idmapis:groupstart.155808 a crm:E63_Beginning_of_Existence ;
+    crm:P4_has_time-span idmapis:groupstart.timespan.155808 ;
+    crm:P92_brought_into_existence idmapis:groupproxy.155808 .
+
+idmapis:groupstart.99824 a crm:E63_Beginning_of_Existence ;
+    crm:P4_has_time-span idmapis:groupstart.timespan.99824 ;
+    crm:P92_brought_into_existence idmapis:groupproxy.99824 .
+
+idmapis:personproxy.155788 a crm:E21_Person,
+        idmcore:Person_Proxy ;
+    rdfs:label "Djuka Tesla" ;
+    bioc:bearer_of idmapis:personrelation.155789 ;
+    bioc:has_gender bioc:Female ;
+    crm:P1_is_identified_by idmapis:appellation.label.155788 ;
+    idmcore:bio_link idmapis:text.155788.bio ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/155788/>,
+        <https://apis.acdh.oeaw.ac.at/entity/155788> .
+
+idmapis:personproxy.155811 bioc:bearer_of idmapis:personrelation.155812 .
+
+idmapis:personproxy.155823 bioc:bearer_of idmapis:personrelation.155826 .
+
+idmapis:personproxy.155827 bioc:bearer_of idmapis:personrelation.155828 .
+
+idmapis:personproxy.155829 bioc:bearer_of idmapis:personrelation.155832 .
+
+idmapis:personproxy.69116 bioc:has_person_relation idmapis:personrelation.159411 .
+
+idmapis:appellation.first_name.155786 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Milutin" .
+
+idmapis:appellation.first_name.155788 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Djuka" .
+
+idmapis:appellation.first_name.27118 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Nikola" .
+
+idmapis:appellation.label.155786 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Tesla, Milutin" ;
+    crm:P148_has_component idmapis:appellation.first_name.155786,
+        idmapis:appellation.last_name.155786 .
+
+idmapis:appellation.label.155788 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Tesla, Djuka" ;
+    crm:P148_has_component idmapis:appellation.first_name.155788,
+        idmapis:appellation.last_name.155788 .
+
+idmapis:appellation.label.27118 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Tesla, Nikola" ;
+    crm:P148_has_component idmapis:appellation.first_name.27118,
+        idmapis:appellation.last_name.27118 .
+
+idmapis:appellation.last_name.155786 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Tesla" .
+
+idmapis:appellation.last_name.155788 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Tesla" .
+
+idmapis:appellation.last_name.27118 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Tesla" .
+
+idmapis:birth.timespan.155786 a crm:E52_Time-Span ;
+    rdfs:label "1818 - 1879" ;
+    crm:P81a_end_of_the_begin "1818-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1818-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:birth.timespan.27118 a crm:E52_Time-Span ;
+    rdfs:label "10.7.1856 - 7.1.1943" ;
+    crm:P82a_begin_of_the_begin "1856-07-10T00:00:00"^^xsd:dateTime .
+
+idmapis:career.timespan.155793 a crm:E52_Time-Span ;
+    rdfs:label "1875 - 1879" ;
+    crm:P81a_end_of_the_begin "1875-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1879-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1875-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1879-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:career.timespan.155797 a crm:E52_Time-Span ;
+    rdfs:label "1881" ;
+    crm:P81a_end_of_the_begin "1881-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1881-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:career.timespan.155804 a crm:E52_Time-Span ;
+    rdfs:label "1884 - 1885" ;
+    crm:P81a_end_of_the_begin "1884-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1885-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1884-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1885-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:career.timespan.155807 a crm:E52_Time-Span ;
+    rdfs:label "1885" ;
+    crm:P81a_end_of_the_begin "1885-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1885-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:death.timespan.155786 a crm:E52_Time-Span ;
+    crm:P81b_begin_of_the_end "1879-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1879-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:death.timespan.27118 a crm:E52_Time-Span ;
+    crm:P82b_end_of_the_end "1943-01-07T23:59:59"^^xsd:dateTime .
+
+idmapis:groupappellation.155795 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Zentrales Telegrafenamt (Budapest)" .
+
+idmapis:groupappellation.155798 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Société Edison Continental (Paris)" .
+
+idmapis:groupappellation.155802 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Edison Electric Illuminating Company (New York)" .
+
+idmapis:groupappellation.155805 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Tesla Electric Light Company (New York)" .
+
+idmapis:groupappellation.155808 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Firma Tesla Electric Company (New York)" .
+
+idmapis:groupappellation.99824 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Technische Hochschule Graz" .
+
+idmapis:groupend.timespan.155802 a crm:E52_Time-Span ;
+    crm:P81b_begin_of_the_end "1881-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1881-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:groupend.timespan.155805 a crm:E52_Time-Span ;
+    crm:P81b_begin_of_the_end "1887-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1887-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:grouprole.5642 rdfs:subClassOf idmapis:grouprole.5622 .
+
+idmapis:groupstart.timespan.155805 a crm:E52_Time-Span ;
+    rdfs:label "1885 - 1887" ;
+    crm:P81a_end_of_the_begin "1885-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1885-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:groupstart.timespan.155808 a crm:E52_Time-Span ;
+    rdfs:label "1887" ;
+    crm:P81a_end_of_the_begin "1887-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1887-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:groupstart.timespan.99824 a crm:E52_Time-Span ;
+    rdfs:label "1811" ;
+    crm:P81a_end_of_the_begin "1811-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1811-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:occupation.135 rdfs:label "Naturwissenschaft" ;
+    rdfs:subClassOf bioc:Occupation .
+
+idmapis:occupation.166 rdfs:label "Diverse" ;
+    rdfs:subClassOf bioc:Occupation .
+
+idmapis:occupation.658 rdfs:label "Technik >> Elektrotechniker und Erfinder" ;
+    rdfs:subClassOf bioc:Occupation,
+        idmapis:occupation.157 .
+
+idmapis:personplace.timespan.155790 a crm:E52_Time-Span ;
+    rdfs:label "1862 - 1866" ;
+    crm:P81a_end_of_the_begin "1862-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1866-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1862-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1866-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:personplace.timespan.155791 a crm:E52_Time-Span ;
+    rdfs:label "1862 - 1866" ;
+    crm:P81a_end_of_the_begin "1862-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1866-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1862-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1866-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:personplace.timespan.155792 a crm:E52_Time-Span ;
+    rdfs:label "1866 - 1874" ;
+    crm:P81a_end_of_the_begin "1866-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P81b_begin_of_the_end "1874-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1866-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1874-12-31T23:59:59"^^xsd:dateTime .
+
+idmapis:personplace.timespan.155794 a crm:E52_Time-Span ;
+    rdfs:label "1880" ;
+    crm:P81a_end_of_the_begin "1880-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1880-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:personplace.timespan.155801 a crm:E52_Time-Span ;
+    rdfs:label "1884" ;
+    crm:P81a_end_of_the_begin "1884-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1884-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:personplace.timespan.155821 a crm:E52_Time-Span ;
+    rdfs:label "1899" ;
+    crm:P81a_end_of_the_begin "1899-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1899-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:personplace.timespan.155822 a crm:E52_Time-Span ;
+    rdfs:label "1900" ;
+    crm:P81a_end_of_the_begin "1900-12-31T23:59:59"^^xsd:dateTime ;
+    crm:P82a_begin_of_the_begin "1900-01-01T00:00:00"^^xsd:dateTime .
+
+idmapis:personrole.5642 a idmapis:personrole.5622 .
+
+idmapis:place.10265 a crm:E53_Place ;
+    rdfs:label "London" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.10265 ;
+    crm:P1_is_identified_by idmapis:placeappellation.10265,
+        idmapis:placeidentifier.10265 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/10265>,
+        <https://d-nb.info/gnd/4074335-4>,
+        <https://sws.geonames.org/2643743/> .
+
+idmapis:place.13714 a crm:E53_Place ;
+    rdfs:label "Paris" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.13714 ;
+    crm:P1_is_identified_by idmapis:placeappellation.13714,
+        idmapis:placeidentifier.13714 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/13714>,
+        <https://d-nb.info/gnd/4044660-8>,
+        <https://sws.geonames.org/2988507/> .
+
+idmapis:place.14608 a crm:E53_Place ;
+    rdfs:label "Prag" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.14608 ;
+    crm:P1_is_identified_by idmapis:placeappellation.14608,
+        idmapis:placeidentifier.14608 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/14608>,
+        <https://d-nb.info/gnd/4076310-9>,
+        <https://sws.geonames.org/3067696/> .
+
+idmapis:place.155818 a crm:E53_Place ;
+    rdfs:label "Colorado Springs" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.155818 ;
+    crm:P1_is_identified_by idmapis:placeappellation.155818,
+        idmapis:placeidentifier.155818 ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/155818/>,
+        <https://apis.acdh.oeaw.ac.at/entity/155818>,
+        <https://sws.geonames.org/5417598/> .
+
+idmapis:place.54993 a crm:E53_Place ;
+    rdfs:label "Philadelphia" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.54993 ;
+    crm:P1_is_identified_by idmapis:placeappellation.54993,
+        idmapis:placeidentifier.54993 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/54993>,
+        <https://sws.geonames.org/4560349/> .
+
+idmapis:place.5584 a crm:E53_Place ;
+    rdfs:label "Gospić" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.5584 ;
+    crm:P1_is_identified_by idmapis:placeappellation.5584,
+        idmapis:placeidentifier.5584 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/5584>,
+        <https://sws.geonames.org/3199873/> .
+
+idmapis:place.71364 a crm:E53_Place ;
+    rdfs:label "St. Louis" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.71364 ;
+    crm:P1_is_identified_by idmapis:placeappellation.71364,
+        idmapis:placeidentifier.71364 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/71364>,
+        <https://sws.geonames.org/4407066/> .
+
+idmapis:place.7912 a crm:E53_Place ;
+    rdfs:label "Karlovac" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.7912 ;
+    crm:P1_is_identified_by idmapis:placeappellation.7912,
+        idmapis:placeidentifier.7912 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/7912>,
+        <https://sws.geonames.org/3198259/> .
+
+idmapis:placeappellation.10265 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "London" .
+
+idmapis:placeappellation.129965 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Smiljan" .
+
+idmapis:placeappellation.13714 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Paris" .
+
+idmapis:placeappellation.14608 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Prag" .
+
+idmapis:placeappellation.155818 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Colorado Springs" .
+
+idmapis:placeappellation.25209 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "New York City" .
+
+idmapis:placeappellation.54993 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Philadelphia" .
+
+idmapis:placeappellation.5584 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Gospić" .
+
+idmapis:placeappellation.71364 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "St. Louis" .
+
+idmapis:placeappellation.7912 a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Karlovac" .
+
+idmapis:placeidentifier.10265 a crm:E_42_Identifier ;
+    rdfs:label 10265 .
+
+idmapis:placeidentifier.129965 a crm:E_42_Identifier ;
+    rdfs:label 129965 .
+
+idmapis:placeidentifier.13714 a crm:E_42_Identifier ;
+    rdfs:label 13714 .
+
+idmapis:placeidentifier.14608 a crm:E_42_Identifier ;
+    rdfs:label 14608 .
+
+idmapis:placeidentifier.155818 a crm:E_42_Identifier ;
+    rdfs:label 155818 .
+
+idmapis:placeidentifier.25209 a crm:E_42_Identifier ;
+    rdfs:label 25209 .
+
+idmapis:placeidentifier.54993 a crm:E_42_Identifier ;
+    rdfs:label 54993 .
+
+idmapis:placeidentifier.5584 a crm:E_42_Identifier ;
+    rdfs:label 5584 .
+
+idmapis:placeidentifier.71364 a crm:E_42_Identifier ;
+    rdfs:label 71364 .
+
+idmapis:placeidentifier.7912 a crm:E_42_Identifier ;
+    rdfs:label 7912 .
+
+idmapis:spaceprimitive.10265 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( -0.12574 +51.50853 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.129965 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +15.31806 +44.56389 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.13714 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +2.3488 +48.85341 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.14608 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +14.42076 +50.08804 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.155818 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( -104.82136 +38.83388 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.25209 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( -74.00597 +40.71427 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.54993 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( -75.16379 +39.95233 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.5584 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +15.37472 +44.54611 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.71364 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( -90.19789 +38.62727 )"^^geo:wktLiteral .
+
+idmapis:spaceprimitive.7912 a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "Point ( +15.54778 +45.48722 )"^^geo:wktLiteral .
+
+idmapis:text.155786.bio idmcore:full_bio_link <https://apis.acdh.oeaw.ac.at/apis/api/metainfo/text/74073/> ;
+    idmcore:short_bio_link <https://apis.acdh.oeaw.ac.at/apis/api/metainfo/text/74074/> .
+
+idmapis:text.155788.bio idmcore:full_bio_link <https://apis.acdh.oeaw.ac.at/apis/api/metainfo/text/74078/> ;
+    idmcore:short_bio_link <https://apis.acdh.oeaw.ac.at/apis/api/metainfo/text/74079/> .
+
+idmapis:text.27118.bio idmcore:full_bio_link <https://apis.acdh.oeaw.ac.at/apis/api/metainfo/text/12107/> ;
+    idmcore:short_bio_link <https://apis.acdh.oeaw.ac.at/apis/api/metainfo/text/12108/> .
+
+idmrelations:5412 rdfs:subClassOf bioc:Family_Relationship_Role .
+
+idmrelations:5421 rdfs:subClassOf bioc:Person_Relationship_Role .
+
+idmrelations:5422 rdfs:subClassOf idmrelations:5420 .
+
+idmrelations:5424 rdfs:subClassOf idmrelations:5420 .
+
+idmapis:born_person.155786 a idmrole:born_person ;
+    bioc:inheres_in idmapis:personproxy.155786 .
+
+idmapis:born_person.27118 a idmrole:born_person ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:deceased_person.155786 a idmrole:deceased_person ;
+    bioc:inheres_in idmapis:personproxy.155786 .
+
+idmapis:deceased_person.27118 a idmrole:deceased_person ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:groupproxy.155795 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.155797,
+        idmapis:grouprole.155797.155795 ;
+    crm:P1_is_identified_by idmapis:groupappellation.155795 ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/155795/>,
+        <https://apis.acdh.oeaw.ac.at/entity/155795> .
+
+idmapis:groupproxy.155798 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.155800,
+        idmapis:grouprole.155800.155798 ;
+    crm:P1_is_identified_by idmapis:groupappellation.155798 ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/155798/>,
+        <https://apis.acdh.oeaw.ac.at/entity/155798> .
+
+idmapis:grouprelation.155793 a idmapis:grouprole.5642 ;
+    rdfs:label "war Student" ;
+    bioc:inheres_in idmapis:groupproxy.99824 .
+
+idmapis:grouprelation.155797 a idmapis:grouprole.5611 ;
+    rdfs:label "war Mitarbeiter von" ;
+    bioc:inheres_in idmapis:groupproxy.155795 .
+
+idmapis:grouprelation.155800 a idmapis:grouprole.5611 ;
+    rdfs:label "war Mitarbeiter von" ;
+    bioc:inheres_in idmapis:groupproxy.155798 .
+
+idmapis:grouprelation.155804 a idmapis:grouprole.5611 ;
+    rdfs:label "war Mitarbeiter von" ;
+    bioc:inheres_in idmapis:groupproxy.155802 .
+
+idmapis:grouprelation.155807 a idmapis:grouprole.5657 ;
+    rdfs:label "war Gründer von" ;
+    bioc:inheres_in idmapis:groupproxy.155805 .
+
+idmapis:grouprelation.155810 a idmapis:grouprole.5657 ;
+    rdfs:label "war Gründer von" ;
+    bioc:inheres_in idmapis:groupproxy.155808 .
+
+idmapis:grouprole.155793.99824 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.99824 .
+
+idmapis:grouprole.155797.155795 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.155795 .
+
+idmapis:grouprole.155800.155798 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.155798 .
+
+idmapis:grouprole.155804.155802 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.155802 .
+
+idmapis:grouprole.155807.155805 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.155805 .
+
+idmapis:grouprole.155810.155808 a bioc:Group_Relationship_Role ;
+    bioc:inheres_in idmapis:groupproxy.155808 .
+
+idmapis:occupation.157 rdfs:label "Technik" ;
+    rdfs:subClassOf bioc:Occupation .
+
+idmapis:personplace.eventrole.155790 a idmrole:5399 ;
+    rdfs:label "ausgebildet in" ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:personplace.eventrole.155791 a idmrole:5399 ;
+    rdfs:label "ausgebildet in" ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:personplace.eventrole.155792 a idmrole:5399 ;
+    rdfs:label "ausgebildet in" ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:personplace.eventrole.155794 a idmrole:5399 ;
+    rdfs:label "ausgebildet in" ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:personplace.eventrole.155801 a idmrole:5388 ;
+    rdfs:label "wirkte in" ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:personplace.eventrole.155813 a idmrole:6321 ;
+    rdfs:label "hielt einen Vortrag in" ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:personplace.eventrole.155814 a idmrole:6321 ;
+    rdfs:label "hielt einen Vortrag in" ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:personplace.eventrole.155815 a idmrole:6321 ;
+    rdfs:label "hielt einen Vortrag in" ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:personplace.eventrole.155816 a idmrole:6321 ;
+    rdfs:label "hielt einen Vortrag in" ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:personplace.eventrole.155817 a idmrole:6321 ;
+    rdfs:label "hielt einen Vortrag in" ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:personplace.eventrole.155821 a idmrole:5388 ;
+    rdfs:label "wirkte in" ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:personplace.eventrole.155822 a idmrole:5388 ;
+    rdfs:label "wirkte in" ;
+    bioc:inheres_in idmapis:personproxy.27118 .
+
+idmapis:personrelation.155787 a idmrelations:5414 ;
+    rdfs:label "war Kind von" .
+
+idmapis:personrelation.155789 a idmrelations:5414 ;
+    rdfs:label "war Kind von" .
+
+idmapis:personrelation.155812 a idmrelations:6479 ;
+    rdfs:label "war Geschäftspartner von" .
+
+idmapis:personrelation.155826 a idmrelations:6479 ;
+    rdfs:label "war Geschäftspartner von" .
+
+idmapis:personrelation.155828 a idmrelations:5422 ;
+    rdfs:label "Gegner von" .
+
+idmapis:personrelation.155832 a idmrelations:5424 ;
+    rdfs:label "war befreundet mit" .
+
+idmapis:personrelation.159411 a idmrelations:5421 ;
+    rdfs:label "rezipierte" .
+
+idmapis:personrole.155793.27118 a idmapis:personrole.5642 .
+
+idmapis:personrole.155797.27118 a idmapis:personrole.5611 .
+
+idmapis:personrole.155800.27118 a idmapis:personrole.5611 .
+
+idmapis:personrole.155804.27118 a idmapis:personrole.5611 .
+
+idmapis:personrole.155807.27118 a idmapis:personrole.5657 .
+
+idmapis:personrole.155810.27118 a idmapis:personrole.5657 .
+
+idmapis:personrole.5657 a bioc:Actor_Role ;
+    rdfs:label "war Gründer von"@de .
+
+idmapis:place.129965 a crm:E53_Place ;
+    rdfs:label "Smiljan" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.129965 ;
+    crm:P1_is_identified_by idmapis:placeappellation.129965,
+        idmapis:placeidentifier.129965 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/129965>,
+        <https://sws.geonames.org/3190482/> .
+
+idmrelations:5414 rdfs:subClassOf idmrelations:5412 .
+
+idmrelations:6479 rdfs:subClassOf idmrelations:5420 .
+
+idmrole:born_person rdfs:subClassOf bioc:Event_Role .
+
+idmrole:deceased_person rdfs:subClassOf bioc:Event_Role .
+
+idmapis:groupproxy.155802 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.155804,
+        idmapis:grouprole.155804.155802 ;
+    crm:P1_is_identified_by idmapis:groupappellation.155802 ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/155802/>,
+        <https://apis.acdh.oeaw.ac.at/entity/155802> .
+
+idmapis:groupproxy.155808 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.155810,
+        idmapis:grouprole.155810.155808 ;
+    crm:P1_is_identified_by idmapis:groupappellation.155808 ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/155808/>,
+        <https://apis.acdh.oeaw.ac.at/entity/155808> .
+
+idmapis:groupproxy.99824 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.155793,
+        idmapis:grouprole.155793.99824 ;
+    crm:P1_is_identified_by idmapis:groupappellation.99824 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/99824>,
+        <https://d-nb.info/gnd/2023902-6> .
+
+idmapis:personrole.5611 a bioc:Actor_Role ;
+    rdfs:label "war Mitarbeiter von"@de .
+
+idmrelations:5420 rdfs:subClassOf bioc:Person_Relationship_Role .
+
+idmrole:5388 rdfs:label "wirkte in" ;
+    rdfs:subClassOf bioc:Event_Role .
+
+idmapis:groupproxy.155805 a crm:E74_Group,
+        idmcore:Group ;
+    bioc:bearer_of idmapis:grouprelation.155807,
+        idmapis:grouprole.155807.155805 ;
+    crm:P1_is_identified_by idmapis:groupappellation.155805 ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/155805/>,
+        <https://apis.acdh.oeaw.ac.at/entity/155805> .
+
+idmapis:personproxy.155786 a crm:E21_Person,
+        idmcore:Person_Proxy ;
+    rdfs:label "Milutin Tesla" ;
+    bioc:bearer_of idmapis:born_person.155786,
+        idmapis:deceased_person.155786,
+        idmapis:personrelation.155787 ;
+    bioc:has_gender bioc:Male ;
+    crm:P1_is_identified_by idmapis:appellation.label.155786 ;
+    idmcore:bio_link idmapis:text.155786.bio ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/155786/>,
+        <https://apis.acdh.oeaw.ac.at/entity/155786> .
+
+idmapis:place.25209 a crm:E53_Place ;
+    rdfs:label "New York City" ;
+    crm:P168_place_is_defined_by idmapis:spaceprimitive.25209 ;
+    crm:P1_is_identified_by idmapis:placeappellation.25209,
+        idmapis:placeidentifier.25209 ;
+    owl1:sameAs <https://apis.acdh.oeaw.ac.at/entity/25209>,
+        <https://d-nb.info/gnd/4042011-5>,
+        <https://sws.geonames.org/5106834/>,
+        <https://sws.geonames.org/5128581/> .
+
+idmrole:5399 rdfs:label "ausgebildet in" ;
+    rdfs:subClassOf bioc:Event_Role .
+
+idmrole:6321 rdfs:label "hielt einen Vortrag in" ;
+    rdfs:subClassOf bioc:Event_Role .
+
+idmcore:Career rdfs:subClassOf crm:E5_Event .
+
+idmapis:personproxy.27118 a crm:E21_Person,
+        idmcore:Person_Proxy ;
+    rdfs:label "Nikola Tesla" ;
+    bioc:bearer_of idmapis:born_person.27118,
+        idmapis:deceased_person.27118,
+        idmapis:personplace.eventrole.155790,
+        idmapis:personplace.eventrole.155791,
+        idmapis:personplace.eventrole.155792,
+        idmapis:personplace.eventrole.155794,
+        idmapis:personplace.eventrole.155801,
+        idmapis:personplace.eventrole.155813,
+        idmapis:personplace.eventrole.155814,
+        idmapis:personplace.eventrole.155815,
+        idmapis:personplace.eventrole.155816,
+        idmapis:personplace.eventrole.155817,
+        idmapis:personplace.eventrole.155821,
+        idmapis:personplace.eventrole.155822,
+        idmapis:personrelation.159411,
+        idmapis:personrole.155793.27118,
+        idmapis:personrole.155797.27118,
+        idmapis:personrole.155800.27118,
+        idmapis:personrole.155804.27118,
+        idmapis:personrole.155807.27118,
+        idmapis:personrole.155810.27118 ;
+    bioc:has_family_relation idmapis:personrelation.155787,
+        idmapis:personrelation.155789 ;
+    bioc:has_gender bioc:Male ;
+    bioc:has_group_relation idmapis:grouprelation.155793,
+        idmapis:grouprelation.155797,
+        idmapis:grouprelation.155800,
+        idmapis:grouprelation.155804,
+        idmapis:grouprelation.155807,
+        idmapis:grouprelation.155810 ;
+    bioc:has_occupation idmapis:occupation.135,
+        idmapis:occupation.157,
+        idmapis:occupation.166,
+        idmapis:occupation.658 ;
+    bioc:has_person_relation idmapis:personrelation.155812,
+        idmapis:personrelation.155826,
+        idmapis:personrelation.155828,
+        idmapis:personrelation.155832 ;
+    crm:P1_is_identified_by idmapis:appellation.label.27118 ;
+    idmcore:bio_link idmapis:text.27118.bio ;
+    owl1:sameAs <https://apis-edits.acdh-dev.oeaw.ac.at/entity/27118/>,
+        <https://apis.acdh.oeaw.ac.at/entity/27118> .
+
