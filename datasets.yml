@@ -12,5 +12,10 @@ datasets:
     website: https://bs.aalto.fi
     file: bs_data.ttl
     namespace: http://data.intavia.eu/bs
-
+  - id: bgn_data
+    name: "BiographyNet main data and schema" 
+    description: "BGN schema and the entire datasets in IDM data format"
+    website: https://ucds.cs.vu.nl/biographynet-project/
+    file: bgn_data.ttl
+    namespace: http://data.biographynet.nl/rdf/
 
