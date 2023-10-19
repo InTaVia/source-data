@@ -12,5 +12,10 @@ datasets:
     website: https://bs.aalto.fi
     file: bs_data.ttl
     namespace: http://data.intavia.eu/bs
-
+  - id: bgn_hiscolinks
+    name: "BiographyNet enrichments Hiscolinks" 
+    description: "enrichments with links of BGN occupations to HISCO"
+    website: https://ucds.cs.vu.nl/biographynet-project/
+    file: bgn_enrich_hiscolinks.ttl
+    namespace: http://data.biographynet.nl/rdf/
 
