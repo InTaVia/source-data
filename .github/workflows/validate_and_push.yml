@@ -23,7 +23,10 @@ jobs:
         uses: tj-actions/changed-files@v35
         with:
           files: datasets/*.ttl
-
+      - name: checkout lfs files
+        run: |
+            git lfs fetch
+            git lfs checkout
       - name: Build and Validate
         uses: konradhoeffner/shacl@master
         with:
