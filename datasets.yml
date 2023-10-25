@@ -12,5 +12,9 @@ datasets:
     website: https://bs.aalto.fi
     file: bs_data.ttl
     namespace: http://data.intavia.eu/bs
-
-
+  - id: europeana_cho
+    name: "Europeana CHO data"
+    description: "Cultural heritage object (CHO) data ingested from Europeana."
+    website: https://www.europeana.eu
+    file: europeana-cho-idm.ttl
+    namespace: http://data.intavia.eu/europeana
