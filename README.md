@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10290206.svg)](https://doi.org/10.5281/zenodo.10290206)
+
 # Source Data repo for InTaVia Knowledge Graph
 This repo is used for ingesting named graphs into the InTaVia Knowledge Graph (IKG).
 The idea of the repository is to have a versioned source of truth that performs data validation (via SHACL) 
