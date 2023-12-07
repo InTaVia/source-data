@@ -1,5 +1,14 @@
-# Source Data repo for InTaVia Knhowledge Graph
+# Source Data repo for InTaVia Knowledge Graph
 This repo is used for ingesting named graphs into the InTaVia Knowledge Graph (IKG).
+The idea of the repository is to have a versioned source of truth that performs data validation (via SHACL) 
+and creates versioning/provenance triples using GitHub actions.
+Pushes to the triplestore are only done from main. Following main branch it is therefore easily possible
+to recreate any previous state of the InTaVia triplestore.
+This fact is also used by the versioning system of the InTaVia Knowledge Graph as new versions of a named graph in the 
+IKG does not replace the old. Instead a new named graph is uploaded and provenance information is added to the 
+provenance graph.
+
+## How to contribute
 
 To ingest your data:
 - prepare your data according to [IDM-RDF](https://github.com/InTaVia/idm-rdf) and the [Shacl shapes](IKG_shacl_shapes.ttl) as a turtle file
