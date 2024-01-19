@@ -12,4 +12,10 @@ datasets:
     website: ""
     file: provenance_graph.ttl
     namespace: http://www.intavia.eu/data_provenace/
+  - id: provided-persons
+    name: "Provided Entities Graph for Persons"
+    description: ""
+    website: ""
+    file: provided_entities_graph.ttl
+    namespace: http://www.intavia.eu/provided_person/
 
