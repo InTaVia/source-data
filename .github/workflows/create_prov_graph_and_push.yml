@@ -17,6 +17,10 @@ jobs:
         uses: tj-actions/changed-files@v35
         with:
           files: datasets/*.ttl
+      - name: checkout lfs files
+        run: |
+            git lfs fetch
+            git lfs checkout
       - uses: actions/setup-python@v4
         with:
           python-version: "3.11"
