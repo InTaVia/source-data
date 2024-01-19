@@ -210,7 +210,7 @@ ex:crm_P168_place_is_defined_by a sh:PropertyShape ;
 ex:bioc_has_gender a sh:PropertyShape ;
     sh:nodeKind sh:IRI ;
     sh:path bioc:has_gender ;
-    sh:in (bioc:Male bioc:Female) .
+    sh:in (bioc:Male bioc:Female bioc:Notknown) .
 
 ex:bioc_has_occupation a sh:PropertyShape ;
     sh:nodeKind sh:IRI ;
