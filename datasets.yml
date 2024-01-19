@@ -12,5 +12,11 @@ datasets:
     website: https://bs.aalto.fi
     file: bs_data.ttl
     namespace: http://data.intavia.eu/bs
+  - id: BNet
+    name: BiographyNet
+    description: ""
+    website: https://bs.aalto.fi
+    file: bgn_data.ttl
+    namespace: http://www.cltl.nl/projects/previous-projects/biographynet/
 
 
