@@ -1,7 +1,7 @@
 datasets:
   - id: apis
     name: "Austrian Biographical Dictionary (ÖBL)"
-    description: "The ÖBL contains roughly 20.000 biographies of people 
+    description: "The ÖBL contains roughly 20.000 biographies of people
       who had some kind of influence on Austria and died between 1815 and 1950."
     website: https://apis.acdh.oeaw.ac.at
     file: apis_data.ttl
@@ -18,4 +18,9 @@ datasets:
     website: ""
     file: provided_entities_graph.ttl
     namespace: http://www.intavia.eu/provided_person/
-
+  - id: sbi
+    name: "Slovenian Biographical Lexicon (SBI)"
+    description: ""
+    website: https://www.slovenska-biografija.si/
+    file: sbi_data.ttl
+    namespace: http://data.intavia.eu/sbi
