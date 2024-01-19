@@ -6,3 +6,9 @@ datasets:
     website: https://apis.acdh.oeaw.ac.at
     file: apis_data.ttl
     namespace: http://data.intavia.eu/oebl
+  - id: provided-persons
+    name: "Provided Entities Graph for Persons"
+    description: ""
+    website: ""
+    file: provided_entities_graph.ttl
+    namespace: http://www.intavia.eu/provided_person/
