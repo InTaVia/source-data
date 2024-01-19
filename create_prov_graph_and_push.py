@@ -91,9 +91,9 @@ def ingest_file_in_ikg(file: str, config: str, provenance_graph: str, triplestor
             sparql.query()
             data = open("provenance_graph.ttl", "rb").read()
             headers = {
-                "Content-Type": "application/x-turtle",
+                "Content-Type": "text/turtle",
             }
-            params = {"context-uri": provenance_graph}
+            params = {"graph": provenance_graph}
             upload = requests.post(
                 triplestore,
                 data=data,
@@ -103,7 +103,7 @@ def ingest_file_in_ikg(file: str, config: str, provenance_graph: str, triplestor
                     os.environ.get("SPARQL_USER"), os.environ.get("SPARQL_PASSWORD")
                 ),
             )
-            params = {"context-uri": ng}
+            params = {"graph": ng}
             data = open(f"datasets/{d_set['file']}", "rb").read()
             upload = requests.post(
                 triplestore,
