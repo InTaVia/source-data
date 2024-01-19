@@ -6,3 +6,10 @@ datasets:
     website: https://apis.acdh.oeaw.ac.at
     file: apis_data.ttl
     namespace: http://data.intavia.eu/oebl
+  - id: data-provenance
+    name: "Data Provenance Graph"
+    description: ""
+    website: ""
+    file: provenance_graph.ttl
+    namespace: http://www.intavia.eu/data_provenace/
+
