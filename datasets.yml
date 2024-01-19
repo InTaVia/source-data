@@ -6,11 +6,3 @@ datasets:
     website: https://apis.acdh.oeaw.ac.at
     file: apis_data.ttl
     namespace: http://data.intavia.eu/oebl
-  - id: bs
-    name: BiographySampo
-    description: ""
-    website: https://bs.aalto.fi
-    file: bs_data.ttl
-    namespace: http://data.intavia.eu/bs
-
-
