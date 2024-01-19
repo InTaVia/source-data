@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10290206.svg)](https://doi.org/10.5281/zenodo.10290206)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10534980.svg)](https://doi.org/10.5281/zenodo.10534980)
 
 # Source Data repo for InTaVia Knowledge Graph
 This repo is used for ingesting named graphs into the InTaVia Knowledge Graph (IKG).
