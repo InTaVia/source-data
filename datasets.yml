@@ -24,3 +24,9 @@ datasets:
     website: https://www.slovenska-biografija.si/
     file: sbi_data.ttl
     namespace: http://data.intavia.eu/sbi
+  - id: bs
+    name: "Biographysampo"
+    description: ""
+    website: https://biografiasampo.fi/
+    file: bs_data.ttl
+    namespace: http://data.intavia.eu/bs
